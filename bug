@@ -1,0 +1,15 @@
+2021-09-16 22:41:15 [PicGo ERROR] 
+------Error Stack Begin------
+StatusCodeError: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+    at new StatusCodeError (D:\Programs\PicGo\resources\app.asar\node_modules\request-promise-core\lib\errors.js:32:15)
+    at Request.plumbing.callback (D:\Programs\PicGo\resources\app.asar\node_modules\request-promise-core\lib\plumbing.js:104:33)
+    at Request.RP$callback [as _callback] (D:\Programs\PicGo\resources\app.asar\node_modules\request-promise-core\lib\plumbing.js:46:31)
+    at Request.self.callback (D:\Programs\PicGo\resources\app.asar\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:200:13)
+    at Request.<anonymous> (D:\Programs\PicGo\resources\app.asar\node_modules\request\request.js:1161:10)
+    at Request.emit (events.js:200:13)
+    at IncomingMessage.<anonymous> (D:\Programs\PicGo\resources\app.asar\node_modules\request\request.js:1083:12)
+    at Object.onceWrapper (events.js:288:20)
+    at IncomingMessage.emit (events.js:205:15)
+-------Error Stack End------- 
+2021-09-16 22:41:15 [PicGo WARN] [PicGo Server] upload failed, see picgo.log for more detail ↑ 
